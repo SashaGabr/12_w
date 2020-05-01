@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>sign</title>
+    <link href="footer.css" rel="stylesheet" type="text/css" />
+    <link href="header.css" rel="stylesheet" type="text/css" />
+    <link href="sign_up.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="header">
+        <div>
+          <a href="index.html">
+              <img class="logo" src="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Home-icon.png"></img>
+          </a>
+        </div>
+        <div class="right-buttons">
+          <div>
+          <a href="sign.html" class="d-none d-sm-block">
+            <button type="button" class=" btn btn-success" >Sign in</button>
+          </a> 
+          </div>
+          <div>
+          <a href="sign_up.html" class="d-none d-sm-block">
+            <button type="button" class="btn btn-success">Sign up</button>
+          </a> 
+           </div>
+           <div>
+          <button type="button" class="d-sm-none btn btn-success btn-menu" onclick="showMenu()"></button>
+          </div>
+        </div> 
+    </div>
+
+    <div id="left-menu" class="d-sm-none">
+      <div class="button-sign">
+        <a href="sign.html" class="">
+          <button type="button" class=" btn btn-success btn-left-menu">Sign in</button>
+        </a>
+
+        <a href="sign.html" class="">
+          <button type="button" class="btn btn-success btn-left-menu">Sign up</button>
+        </a> 
+      </div>
+      <ul class="list-group menu-list">
+        <a href="index.html">
+          <li class="list-group-item">
+            Картинки природы
+          </li>
+        </a>
+        <a href="about.html">
+          <li class="list-group-item">
+            Картинки животных
+          </li>
+        </a>
+        <a href="kontakt.html">
+          <li class="list-group-item">
+            Картинки космоса
+          </li>
+        </a>
+      </ul>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+        <small id="emailHelp" class="form-text text-muted">Do not write easy password.</small>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+    <div class="footer d-none d-sm-flex">
+      <a href="index.html">
+        <button type="button" class="btn btn-outline-dark">Картинки природы</button>
+      </a>
+      <a href="about.html">
+        <button type="button" class="btn btn-outline-dark">Картинки животных</button>
+      </a>
+      <a href="kontakt.html">
+        <button type="button" class="btn btn-outline-dark">Картинки космоса</button>
+      </a>
+    </div>  
+
+    <script src="script.js"></script>
+    <script src="sidebar.js"></script>
+  </body>
+</html>

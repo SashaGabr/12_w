@@ -1,0 +1,101 @@
+.body{
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(170, 229, 245);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: #563d7c;
+  height: 70px;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.right-buttons{
+  display: flex;
+}
+
+.right-buttons div{
+  margin-right: 10px;
+}
+
+.btn-menu{
+  height: 35px;
+  width: 35px;
+}
+
+.button-sign{
+  margin-bottom: 10px;
+}
+
+#left-menu{
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  background-color:  rgb(170, 229, 245);
+  top: 0px;
+  z-index: 10;
+  padding: 5px;
+  left: -300px;
+  transition: left 0.3s;
+}
+
+.menu-list li{
+  cursor: pointer;
+}
+
+.menu-list li:hover{
+  background-color: aliceblue;
+}
+
+.menu-list a, .menu-list a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.left-btn{
+  display: block;
+}
+
+.left-button{
+  margin-top: 100%;
+}
+
+.card-container{
+  text-align: center;  
+}
+
+.card{
+  width: 210px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card img{
+  height: 220px;
+}
+
+.footer{
+  bottom: 0px;
+  background-color: rgb(170, 229, 245);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+
+.footer .btn{
+  width: 200px;
+}
